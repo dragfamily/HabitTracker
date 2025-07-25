@@ -1,0 +1,42 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Source files
+*.java     text
+*.kt       text
+*.xml      text
+*.gradle   text
+*.gradle.kts text
+*.properties text
+*.md       text
+*.yml      text
+*.yaml     text
+*.json     text
+
+# Shell/batch scripts
+*.sh       text eol=lf
+*.bat      text eol=crlf
+
+# Ignore diff for binary files
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.mp4      binary
+*.mp3      binary
+*.ogg      binary
+*.wav      binary
+*.ttf      binary
+*.otf      binary
+*.woff     binary
+*.woff2    binary
+*.eot      binary
+*.zip      binary
+*.jar      binary
+*.apk      binary
+
+# Ignore diffs for IDE config files
+*.iml      text
+*.sublime-* text
+.idea/**   text
+
