@@ -1,0 +1,21 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Node
+web/node_modules/
+web/dist/
+
+# Android
+android/.gradle/
+android/.idea/
+android/build/
+android/local.properties
+
+# VS Code
+.vscode/
+
+# Others
+*.log
+.env
+
